@@ -1,0 +1,186 @@
+.navbar-default {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+  position: fixed;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #9C9594;
+}
+
+.navbar-default .navbar-nav>.active>a{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+#home h3{
+  font-size: 64px;
+  margin-bottom: 2%;
+  text-shadow: 2px 2px 2px #000;
+}
+
+#home p{
+  font-size: 24px;
+  margin-bottom: 4%;
+  text-shadow: 2px 2px 2px #000;
+}
+
+#home button{
+  min-width: 9vw;
+  min-height: 7vh;
+  background-color: #f15a24;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  margin-bottom: 20%;
+}
+
+#slide-1 {
+  background-image: url('../img/wood-2.jpg');
+  min-height: 100vh;
+  background-size: cover;
+}
+
+#slide-1 img{
+  max-width: 25vw;
+  /*max-width: 350px;*/
+  padding-bottom: 22vh;
+  /*margin-top: 10%;*/
+}
+
+#slide-2 {
+  background-image: url('../img/restaurant-2.jpg');
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#slide-3 {
+  background-image: url('../img/farm-2.jpg');
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*OUR STORY SECTION*/
+#story{
+  padding: 5%;
+}
+
+#story h3{
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 0;
+}
+
+#story p{
+  font-family: 'Raleway', sans-serif;
+}
+
+.heading{
+  font-size: 100px;
+  color: #f8512f;
+  font-family: 'Lobster', cursive;
+  text-shadow: 2px 2px 5px #000;
+}
+
+#year{
+  z-index: -1;
+  position: absolute;
+  color: #ccc;
+  /*font-size: 40vw;*/
+  font-size: 10vw;
+  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+  margin-top: -20px;
+}
+
+#food-review{
+  background-image: url('../img/food_review.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 70vh;
+  /*width: 100%;*/
+}
+
+#food-review h3{
+  color: #fff;
+  padding: 3%;
+  font-size: 30px;
+  padding-top: 0;
+}
+
+.fresbee-bckgrnd{
+  margin-top: 6.5%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+#menu{
+  background-image: url('../img/black_linen.png');
+  background-size: cover;
+  padding: 3% 0;
+}
+
+#menu .tab-pane{
+  padding: 2%;
+  background-color: #fff;
+}
+
+#menu-h1{
+  font-size: 100px;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  color: #fff;
+}
+
+#menu ul li a{
+  color: #f8512f;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+@media screen and (max-width:767px) {
+  .navbar-default{
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .navbar-toggle{
+    border-width: 2px;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    height: 2px;
+    background-color: white;
+  }
+  #menu img{
+    /*max-width: 263px;*/
+  }
+  #slide-1 img{
+    max-width: 45vw;
+    /*max-width: 350px;*/
+    padding-bottom: 30vh;
+  }
+  #year{
+    font-size: 40vw;
+    word-wrap: break-word;
+    width: 33%;
+  }
+  #home h3{
+    font-size: 36px;
+    margin-bottom: 8%;
+    text-shadow: 2px 2px 2px #000;
+  }
+
+  #home p{
+    font-size: 14px;
+    margin-bottom: 10%;
+    text-shadow: 2px 2px 2px #000;
+  }
+}

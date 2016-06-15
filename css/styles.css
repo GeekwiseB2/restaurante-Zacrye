@@ -6,16 +6,22 @@
 
 
 .navbar-default .navbar-nav>li>a {
-  color: white;
+  color: #E5DBDA;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  color: #9C9594;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.55);
 }
 
 .navbar-default .navbar-nav>.active>a{
-  color: white;
+  color: #E5DBDA;
   background-color: rgba(0, 0, 0, 0.35);
+}
+
+.navbar-default .navbar-nav>.active>a:hover{
+  color: #E5DBDA;
+  background-color: rgba(0, 0, 0, 0.55);
 }
 
 #home h3{
@@ -148,6 +154,17 @@
   font-weight: 700;
 }
 
+#contact{
+  background-color: #D14428;
+  padding: 3%;
+  color: #fff;
+}
+
+#contact h1{
+  text-transform: uppercase;
+  font-size: 64px;
+}
+
 @media screen and (max-width:767px) {
   .navbar-default{
     background-color: rgba(0, 0, 0, 0.5);
@@ -182,5 +199,31 @@
     font-size: 14px;
     margin-bottom: 10%;
     text-shadow: 2px 2px 2px #000;
+  }
+
+  #contact h1{
+    text-transform: uppercase;
+    font-size: 36px;
+  }
+  #rc-imageselect, .g-recaptcha {
+    transform:scale(0.77);
+    -webkit-transform:scale(0.77);
+    transform-origin:0 0;
+    -webkit-transform-origin:0 0;
+    margin-bottom: -30%;
+    padding-top: 10%;
+  }
+  .scaled-iframe {
+    position: relative;
+    padding-bottom: 35%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+  }
+  .scaled-iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
   }
 }

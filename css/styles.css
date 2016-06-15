@@ -211,9 +211,9 @@
     padding-bottom: 30vh;
   }
   #year{
-    font-size: 22vh;
+    font-size: 128px;
     word-wrap: break-word;
-    width: 33%;
+    width: 1%;
   }
   #home h3{
     font-size: 36px;
